@@ -40,7 +40,11 @@
 	      }); 
 	  	});
 	}; 
-
+	/* Dot Navigation
+	 * --------------------------------------------------- */
+	 var ssdotnav = function() {
+		$('section').verticalDotNav();
+	}; 
 
 	/* FitVids
 	------------------------------------------------------ */ 
@@ -404,6 +408,7 @@
 	(function ssInit() {
 
 		ssPreloader();
+		ssdotnav();
 		ssFitVids();
 		ssMasonryFolio();
 		ssLightGallery();
